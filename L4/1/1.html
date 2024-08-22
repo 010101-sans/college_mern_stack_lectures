@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Vechiles</title>
+</head>
+<body>
+
+    <img src="" id="v-image" alt="Vechicle Image Here" style="width: 300px;"><br>
+
+    <button type="button" id="btn-two-wheel">Two Wheeler</button>
+    <button type="button" id="btn-three-wheel">Three Wheeler</button>
+    <button type="button" id="btn-four-wheel">Four Wheeler</button>
+
+    <script>
+
+        const vimg = document.getElementById("v-image");
+        const twBtn = document.getElementById('btn-two-wheel');
+        const thwBtn = document.getElementById('btn-three-wheel');
+        const frwBtn = document.getElementById('btn-four-wheel');
+
+        twBtn.addEventListener("click", () => show(2));
+        thwBtn.addEventListener("click", () => show(3));
+        frwBtn.addEventListener("click", () => show(4));
+
+        function show(n) {
+            switch (n) {
+                case 2: vimg.src = "assets/2w.webp";
+                    break;
+                case 3: vimg.src = "assets/3w.webp";
+                    break;
+                case 4: vimg.src = "assets/4w.webp";
+                    break;
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="expression">Expresssions</p>
+
+    <script>
+
+        const exp = document.getElementById("expression");
+
+        const modFunction = (a, b) => {
+            if (b != 0) {
+                console.log(a % b);
+                exp.innerText += `\n\n${a} % ${b} = ${a % b}`;
+            }
+        };
+
+        modFunction(16, 2);
+        modFunction(9, 1);
+        modFunction(91, 202);
+        modFunction(81, 55);
+
+    </script>
+
+</body>
+
+</html>

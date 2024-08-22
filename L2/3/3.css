@@ -1,0 +1,40 @@
+h1,
+h3,
+h4,
+textarea,
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: red;
+}
+
+h3 {
+    color: black;
+}
+
+a {
+    color: rgb(0, 128, 0);
+    text-decoration: none;
+}
+
+button {
+    background-color: white;
+    color: blueviolet;
+    display: block;
+    margin: 0 auto;
+}
+
+textarea {
+    color: #000000;
+    display: block;
+    margin: 0 auto;
+}
+textarea::placeholder { color: green;}
+
+p {
+    line-height: 30px;
+}
+

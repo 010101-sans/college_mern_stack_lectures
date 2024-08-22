@@ -1,0 +1,62 @@
+/*
+
+body {
+    font-family: Arial, sans-serif;
+    background: blue;
+    color: #333;
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #007BFF;
+}
+
+input[type="text"],
+input[type="radio"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+textarea,
+input[type="checkbox"],
+label[for="male"],
+label[for="female"],
+label[for="subscribe"] {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background: #007BFF;
+    color: white;
+    border: none;
+} 
+
+*/

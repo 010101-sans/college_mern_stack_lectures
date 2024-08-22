@@ -1,0 +1,7 @@
+Subnet mask : 255.255.255.0
+
+prefix 24
+
+ipv4 gateway : 172.16.30.1
+
+ipv4 dns server : 172.16.0.100

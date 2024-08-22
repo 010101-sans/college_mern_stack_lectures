@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <!-- See the OUTPUT RESULTS in WEBPAGE CONSOLE -->
+
+    <script>
+
+        // 1
+        let num = prompt("Enter a number:");
+        num = parseInt(num);
+        if (num % 10 === 0) {
+            console.log(num + ' is good');
+        } else {
+            console.log(num + ' is bad');
+        }
+
+        // 2
+        let name = prompt("Enter your name:");
+        let age = prompt("Enter your age:");
+        console.log(name + " is " + age + " years old");
+
+        // 3
+        let string = prompt("Enter a string:");
+        if (string.charAt(0) === 'A' && string.length > 5) {
+            console.log(string + ' is a golden string');
+        } else {
+            console.log(string + ' is not a golden string');
+        }
+
+        // 4
+        let character = prompt("Enter an alphabet character:");
+        if (character.length === 1) {
+            if (character === character.toUpperCase()) {
+                console.log(character + ' is an uppercase letter');
+            } else {
+                console.log(character + ' is a lowercase letter');
+            }
+        } else {
+            console.log(character + ' is not an alphabet character');
+        }
+
+        // 5
+        let num1 = prompt("Enter the first number:");
+        let num2 = prompt("Enter the second number:");
+        num1 = parseInt(num1);
+        num2 = parseInt(num2);
+        if (num1 % 10 === num2 % 10) {
+            console.log("The numbers have the same last digit");
+        } else {
+            console.log("The numbers do not have the same last digit");
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sanskar Suryawanshi">
+    <meta name="description" content="A comprehensive webpage demonstrating all HTML tags by category.">
+    <meta name="keywords" content="HTML, tags, guide, tutorial, web development">
+
+    <title>Complete HTML Tags Showcase</title>
+
+    <base href="https://example.com/">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        
+        .highlight {
+            background-color: yellow;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background: #f5f5f5;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        header h1 {
+            margin: 0;
+            text-align: center;
+        }
+        
+        nav {
+            margin-top: 10px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        main {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        article,
+        aside {
+            margin: 10px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form fieldset {
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        form label,
+        form input,
+        form select,
+        form textarea,
+        form button {
+            margin-bottom: 5px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        form input[type="submit"],
+        form input[type="reset"],
+        form button {
+            margin-top: 10px;
+            width: 100px;
+            align-self: flex-start;
+        }
+
+        footer {
+            width: 100%;
+            background: #f5f5f5;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        // Javascript
+    </script>
+
+    <noscript>Your browser does not support JavaScript or it is disabled.</noscript>
+
+</head>
+
+<body onload="greet()">
+    <header>
+        <h1>Complete HTML Tags Showcase</h1>
+        <nav>
+            <ul>
+                <li>Document Structure</li>
+                <li>Text Content</li>
+                <li>Inline Text</li>
+                <li>Multimedia</li>
+                <li>Forms and Input</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="structure">
+            <h2>Document Structure</h2>
+            <article>
+                <h3>Main Structural Elements</h3>
+                <p>HTML documents use tags like <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and
+                    <code>&lt;body&gt;</code> for basic structure.<br>
+                </p>
+            </article>
+            <aside>
+                <h4>Did you know?</h4>
+                <p>The <code>&lt;main&gt;</code> tag represents the main content of a document.</p>
+            </aside>
+        </section>
+
+        <section id="text">
+            <h2>Text Content</h2>
+            <h3>Headings</h3>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+
+            <h3>Paragraphs and Text Formatting</h3>
+            <p>This is a paragraph. You can use <em>emphasis</em> or <strong>strong importance</strong>.</p>
+            <p><small>This is smaller text.</small></p>
+            <p><s>This text is no longer accurate.</s></p>
+            <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+            <p><dfn>HTML</dfn> stands for HyperText Markup Language.</p>
+            <p>The chemical formula for water is H<sub>2</sub>O.</p>
+            <p>The area of a circle is πr<sup>2</sup>.</p>
+
+            <h3>Quotes</h3>
+            <blockquote cite="https://www.huxley.net/bnw/four.html">
+                <p>Words can be like X-rays, if you use them properly—they'll go through anything. You read and you're
+                    pierced.</p>
+            </blockquote>
+            <p>As Aldous Huxley said, <q>Words can be like X-rays.</q></p>
+
+            <h3>Code and Preformatted Text</h3>
+            <pre><code>
+function greet(name) {
+    console.log(`Hello, ${name}!`);
+}
+            </code></pre>
+            <p>The <kbd>Ctrl</kbd> + <kbd>C</kbd> keyboard shortcut is used to copy text.</p>
+            <p>The command <samp>ping 192.168.1.1</samp> will test network connectivity.</p>
+            <p>Let <var>x</var> be the variable in this equation.</p>
+
+            <h3>Other Text Elements</h3>
+            <p><mark>This text is marked or highlighted.</mark></p>
+            <p><ins>This text has been inserted.</ins></p>
+            <p><del>This text has been deleted.</del></p>
+            <p><u>This text is underlined.</u></p>
+            <p><i>This text is italicized.</i></p>
+            <p><b>This text is bold.</b></p>
+
+            <h3>Time and Data</h3>
+            <p>The event starts at <time datetime="2024-08-25T20:00:00">8:00 PM</time> on <time
+                    datetime="2024-08-25">August 25, 2024</time>.</p>
+            <p>My favorite computer is the <data value="mac-1">iMac</data>.</p>
+
+            <h3>Details and Summary</h3>
+            <details>
+                <summary>Click to view more information</summary>
+                <p>This is additional information that can be toggled.</p>
+            </details>
+        </section>
+
+        <section id="inline">
+            <h2>Inline Text Semantics</h2>
+            <p>This section demonstrates various inline elements like <span class="highlight">span</span>.</p>
+        </section>
+
+        <section id="multimedia">
+            <h2>Multimedia</h2>
+
+            <h3>Images</h3>
+            <figure>
+                <img src="image.jpg" alt="An example image"><br>
+                <figcaption>Figure 1: An example image</figcaption>
+            </figure>
+
+            <picture>
+                <source media="(min-width: 650px)" srcset="large-image.jpg">
+                <source media="(min-width: 465px)" srcset="medium-image.jpg">
+                <img src="small-image.jpg" alt="Responsive image example"><br>
+            </picture>
+
+            <h3>Audio and Video</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                <source src="audio.ogg" type="audio/ogg">
+                Your browser does not support the audio element.<br>
+            </audio>
+
+            <video controls width="250">
+                <source src="video.mp4" type="video/mp4">
+                <source src="video.webm" type="video/webm">
+                <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                Your browser does not support the video tag.<br>
+            </video>
+
+            <h3>Embedded Content</h3>
+            <iframe src="https://www.example.com" width="500" height="300"></iframe><br>
+            <embed src="file.pdf" type="application/pdf" width="500" height="375"><br>
+            <!-- <object data="file.swf" type="application/x-shockwave-flash">
+                <param name="quality" value="high">
+            </object> -->
+
+            <h3>Canvas and SVG</h3>
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas><br>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+            </svg>
+
+            <h3>Image Map</h3>
+            <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"><br>
+            <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+            </map>
+        </section>
+
+        <section id="forms">
+            <h2>Forms and Input</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob"><br>
+
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="0" max="120">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <label for="color">Favorite Color:</label>
+                    <input type="color" id="color" name="color"><br>
+
+                    <label for="satisfaction">Satisfaction:</label>
+                    <input type="range" id="satisfaction" name="satisfaction" min="1" max="5"><br>
+
+                    <label for="newsletter">Subscribe to newsletter:</label>
+                    <input type="checkbox" id="newsletter" name="newsletter"><br>
+
+                    <p>Preferred Contact Method:</p><br>
+                    <input type="radio" id="contact_email" name="contact" value="email"><br>
+                    <label for="contact_email">Email</label><br>
+                    <input type="radio" id="contact_phone" name="contact" value="phone"><br>
+                    <label for="contact_phone">Phone</label><br>
+                </fieldset><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country"><br>
+                    <optgroup label="Asia">
+                        <option value="india">India</option><br>
+                    </optgroup><br>
+                    <optgroup label="North America">
+                        <option value="usa">United States</option><br>
+                        <option value="canada">Canada</option><br>
+                    </optgroup><br>
+                    <optgroup label="Europe">
+                        <option value="uk">United Kingdom</option><br>
+                        <option value="france">France</option><br>
+                    </optgroup><br>
+                </select><br>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website"><br>
+
+                <label for="upload">Upload File:</label>
+                <input type="file" id="upload" name="upload"><br>
+
+                <label for="search">Search:</label>
+                <input type="search" id="search" name="search"><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+                <label for="meeting-time">Meeting Time:</label>
+                <input type="datetime-local" id="meeting-time" name="meeting-time"><br>
+
+                <label for="volume">Volume:</label>
+                <input type="range" id="volume" name="volume" min="0" max="11"><br>
+
+                <label for="cow-count">Number of Cows:</label>
+                <input type="number" id="cow-count" name="cow-count" min="0" max="100" step="2"><br>
+
+                <label for="fruit-choice">Choose a fruit:</label>
+                <input list="fruits" id="fruit-choice" name="fruit-choice"><br>
+                <datalist id="fruits"><br>
+                    <option value="Apple"><br>
+                    <option value="Banana"><br>
+                    <option value="Cherry"><br>
+                </datalist><br>
+
+                <output name="result" for="a b">100</output><br>
+
+                <label for="file">Downloading progress:</label>
+                <progress id="file" value="32" max="100"> 32% </progress><br>
+
+                <label for="disk_c">Disk usage C:</label>
+                <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button><br>
+
+            </form>
+        </section>
+
+        <dialog id="myDialog"><br>
+            <p>This is an example dialog box.</p><br>
+            <button onclick="document.getElementById('myDialog').close()">Close</button><br>
+        </dialog><br>
+        <button onclick="document.getElementById('myDialog').showModal()">Open Dialog</button><br>
+
+        <template id="my-paragraph"><br>
+            <p>This is a template that can be used to insert content dynamically.</p><br>
+        </template><br>
+    </main><br>
+
+    <footer>
+        <address>
+            Written by Sanskar Suryawanshi.<br>
+        </address>
+        <p>Complete HTML Tags Showcase. All rights reserved.</p><br>
+    </footer><br>
+
+    <script>
+        // JavaScript
+    </script>
+</body>
+
+</html>

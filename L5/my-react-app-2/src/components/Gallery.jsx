@@ -3,9 +3,6 @@ import React from "react";
 import Profile from './Profile.jsx';
 
 const Gallery = () => {
-
-    
-
     return (
         <table>
             <tr>

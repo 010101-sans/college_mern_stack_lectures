@@ -1,8 +1,21 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Text Manipulator
 
-Currently, two official plugins are available:
+Text Manipulator is a web application designed to allow users to manipulate text in various ways. Utilizing a rich interface built with React and styled using Bootstrap, users can apply multiple text styles, change font properties, and dynamically count words and characters in their text input.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+This is the main component of the application. It includes the following functionalities:
+
+- **toggleStyle**: A utility function to toggle between two styles.
+- **boldText**: Makes the text bold.
+- **italicText**: Applies italic style to the text.
+- **underlineText**: Underlines the text.
+- **strikeThroughText**: Applies a strikethrough to the text.
+- **changeColor**: Changes text color to a random selection from a list.
+- **changeCase**: Toggles text case between uppercase and lowercase.
+- **increaseFontSize**: Increases the font size.
+- **decreaseFontSize**: Decreases the font size.
+- **changeFontFamily**: Changes the font family to a random selection.
+- **changeAlignment**: Aligns text to the left, center, or right.
+- **updateCounts**: Updates word and character count as you type.
